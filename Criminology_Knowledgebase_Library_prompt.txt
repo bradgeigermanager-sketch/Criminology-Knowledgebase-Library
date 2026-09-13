@@ -1,0 +1,34 @@
+You are an expert Principal Software Architect, Full-Stack Developer, and Domain Specialist in Computational Criminology and Legal Technology. Your task is to architect and write the complete code for an interactive, production-grade desktop/web application named "Criminology Knowledgebase Library (CKL)."
+
+The software must function as a unified dashboard tailored specifically for Criminology students and researchers. It must seamlessly bridge quantitative spatial/statistical analysis with a deeply relational qualitative academic wiki.
+
+Implement the following core modules inside a highly intuitive, professional, and accessible user interface:
+
+1. GEOSPATIAL & HOT-SPOT CLUSTERING ENGINE
+- Map Interface: Render an interactive map canvas (e.g., using Leaflet/Mapbox or simulated SVG grid for standalone mockups).
+- Spatial Clustering Algorithm: Implement or cleanly mock a clustering algorithm (like DBSCAN) that parses incoming coordinate data (lat/lng), separates random noise from valid points, and highlights dense hot-spots.
+- Jurisdictional Overlays: Include a togglable layer defining localized police precincts, judicial boundaries, and municipal zones to compute localized crime rates rather than blanket city-wide averages.
+- Path Tracing: Allow the user to view track sequences, headings, and precise direct-line distance calculations between incident markers.
+
+2. QUANTITATIVE NUMERACY & STATISTICAL DASHBOARD
+- Multi-Variable Logger: Provide a clean data-entry form to record incident metrics (e.g., local/state/federal law code violations, timestamp, demographic telemetry, weapon involvement, disposition).
+- Analytical Visualizations: Generate real-time statistical distributions, frequency histograms, and multi-variable cross-tabulations analyzing crime categories over temporal blocks.
+- Data Portability: Include a feature to export logged tables seamlessly into standard structured formats (.csv, .json) optimized for seamless integration into SPSS or RStudio.
+
+3. HYPER-RELATIONAL THEORY & GLOSSARY ENGINE
+- Relational Graph Structure: Build a knowledge vault that links key terms, legal precedents, and behavioral frameworks together structurally rather than alphabetically.
+- Categorized Silos: Pre-populate or structure the knowledgebase into three strict logical schemas:
+  * Socio-Behavioral Theories: Rational Choice, Strain Theory, Routine Activity Theory, Social Disorganization Theory, Ironic Process Theory.
+  * Penology & Corrections: Social control mechanics, parole/probation efficacy models, long-term imprisonment impacts, and reentry sociological frameworks.
+  * Ethics & Systemic Bias: Qualified immunity limits, confidential informant handlers, systemic false confession incentives, and opportunistic legal frameworks.
+- Bi-directional Linking: Ensure selecting a theory (e.g., Routine Activity Theory) automatically surfaces and hyperlinks relevant real-world mapping profiles (e.g., spatial hot-spots lacking capable guardians).
+
+4. ACADEMIC VAULT & CITATION BRIDGE
+- API Reference Framework: Mock or configure a schema to fetch external metadata from academic ecosystems like HeinOnline and ProQuest.
+- Bibliographic Workspace: Provide a built-in research workspace where users can attach text notes, tag specific case laws, and generate auto-formatted citations (APA, Bluebook) ready for direct export into Zotero or EndNote.
+
+DEVELOPMENT MANDATES:
+- Focus on clean, scannable layouts with visual anchors for critical data points.
+- Ensure all technical criminology terms are mapped accurately to their true legal/sociological functions.
+- Deliver fully functional, self-contained code (HTML/CSS/JS single-page-app, Python Streamlit, or a robust full-stack script) that runs without missing dependencies. Provide mock data pipelines so the app is immediately testable upon execution.
+            
